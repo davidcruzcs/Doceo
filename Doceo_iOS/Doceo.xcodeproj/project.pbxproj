@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4733EA21D8F0733004ABC2C /* GlobalMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4733EA11D8F0733004ABC2C /* GlobalMethods.swift */; };
+		A495645C1D8A39B900B649D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495645B1D8A39B900B649D3 /* AppDelegate.swift */; };
+		A49564631D8A39B900B649D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49564611D8A39B900B649D3 /* Main.storyboard */; };
+		A49564651D8A39B900B649D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49564641D8A39B900B649D3 /* Assets.xcassets */; };
+		A49564681D8A39B900B649D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49564661D8A39B900B649D3 /* LaunchScreen.storyboard */; };
+		A49564701D8A3CC900B649D3 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495646F1D8A3CC900B649D3 /* DiscoverViewController.swift */; };
+		A49564731D8A40E200B649D3 /* ProfessorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564721D8A40E200B649D3 /* ProfessorsViewController.swift */; };
+		A49564761D8A411500B649D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564751D8A411500B649D3 /* Constants.swift */; };
+		A49564781D8A422600B649D3 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564771D8A422600B649D3 /* FollowingViewController.swift */; };
+		A495647A1D8A424300B649D3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564791D8A424300B649D3 /* LoadingViewController.swift */; };
+		A495647C1D8A43CA00B649D3 /* ProfessorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495647B1D8A43CA00B649D3 /* ProfessorTableViewController.swift */; };
+		A495647E1D8A43E200B649D3 /* ProfileProfessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495647D1D8A43E200B649D3 /* ProfileProfessorViewController.swift */; };
+		A49564801D8A55E100B649D3 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495647F1D8A55E100B649D3 /* Professor.swift */; };
+		A49564891D8A5B2E00B649D3 /* HubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564821D8A5B2E00B649D3 /* HubViewController.swift */; };
+		A495648A1D8A5B2E00B649D3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564831D8A5B2E00B649D3 /* LoginViewController.swift */; };
+		A495648B1D8A5B2E00B649D3 /* MyHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564841D8A5B2E00B649D3 /* MyHubViewController.swift */; };
+		A495648C1D8A5B2E00B649D3 /* HubDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564851D8A5B2E00B649D3 /* HubDateViewController.swift */; };
+		A495648D1D8A5B2E00B649D3 /* HubAreasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564861D8A5B2E00B649D3 /* HubAreasViewController.swift */; };
+		A495648E1D8A5B2E00B649D3 /* HubProfessorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564871D8A5B2E00B649D3 /* HubProfessorsViewController.swift */; };
+		A495648F1D8A5B2E00B649D3 /* HubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564881D8A5B2E00B649D3 /* HubSearchViewController.swift */; };
+		A49564911D8A611B00B649D3 /* ProfessorPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49564901D8A611B00B649D3 /* ProfessorPost.swift */; };
+		A4990A321D8B9681009F3D94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4990A311D8B9681009F3D94 /* GoogleService-Info.plist */; };
+		A4ED48561D90CB7E0073D386 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ED48551D90CB7E0073D386 /* PostViewController.swift */; };
+		CF196500E0C90A87509122FF /* Pods_Doceo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9510E7161FFE23574BFA774B /* Pods_Doceo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C29651C5F3F2859A05D58A3 /* Pods-Doceo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doceo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doceo/Pods-Doceo.release.xcconfig"; sourceTree = "<group>"; };
+		7977E166AD220C96DF074643 /* Pods-Doceo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doceo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doceo/Pods-Doceo.debug.xcconfig"; sourceTree = "<group>"; };
+		9510E7161FFE23574BFA774B /* Pods_Doceo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doceo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4733EA11D8F0733004ABC2C /* GlobalMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalMethods.swift; sourceTree = "<group>"; };
+		A49564581D8A39B900B649D3 /* Doceo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doceo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A495645B1D8A39B900B649D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A49564621D8A39B900B649D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A49564641D8A39B900B649D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A49564671D8A39B900B649D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A49564691D8A39B900B649D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A495646F1D8A3CC900B649D3 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		A49564721D8A40E200B649D3 /* ProfessorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessorsViewController.swift; sourceTree = "<group>"; };
+		A49564751D8A411500B649D3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A49564771D8A422600B649D3 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		A49564791D8A424300B649D3 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		A495647B1D8A43CA00B649D3 /* ProfessorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfessorTableViewController.swift; sourceTree = "<group>"; };
+		A495647D1D8A43E200B649D3 /* ProfileProfessorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileProfessorViewController.swift; sourceTree = "<group>"; };
+		A495647F1D8A55E100B649D3 /* Professor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Professor.swift; path = Entities/Professor.swift; sourceTree = "<group>"; };
+		A49564821D8A5B2E00B649D3 /* HubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubViewController.swift; sourceTree = "<group>"; };
+		A49564831D8A5B2E00B649D3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A49564841D8A5B2E00B649D3 /* MyHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHubViewController.swift; sourceTree = "<group>"; };
+		A49564851D8A5B2E00B649D3 /* HubDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubDateViewController.swift; sourceTree = "<group>"; };
+		A49564861D8A5B2E00B649D3 /* HubAreasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubAreasViewController.swift; sourceTree = "<group>"; };
+		A49564871D8A5B2E00B649D3 /* HubProfessorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubProfessorsViewController.swift; sourceTree = "<group>"; };
+		A49564881D8A5B2E00B649D3 /* HubSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubSearchViewController.swift; sourceTree = "<group>"; };
+		A49564901D8A611B00B649D3 /* ProfessorPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfessorPost.swift; path = Entities/ProfessorPost.swift; sourceTree = "<group>"; };
+		A4990A311D8B9681009F3D94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4ED48551D90CB7E0073D386 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A49564551D8A39B900B649D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF196500E0C90A87509122FF /* Pods_Doceo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5EBFFDF736130EBCCDD5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9510E7161FFE23574BFA774B /* Pods_Doceo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		814D7532D20F08AE1C132CBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7977E166AD220C96DF074643 /* Pods-Doceo.debug.xcconfig */,
+				0C29651C5F3F2859A05D58A3 /* Pods-Doceo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4733EA01D8F0685004ABC2C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A495647F1D8A55E100B649D3 /* Professor.swift */,
+				A49564901D8A611B00B649D3 /* ProfessorPost.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		A495644F1D8A39B900B649D3 = {
+			isa = PBXGroup;
+			children = (
+				A495645A1D8A39B900B649D3 /* Doceo */,
+				A49564591D8A39B900B649D3 /* Products */,
+				814D7532D20F08AE1C132CBA /* Pods */,
+				5A5EBFFDF736130EBCCDD5A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A49564591D8A39B900B649D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A49564581D8A39B900B649D3 /* Doceo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A495645A1D8A39B900B649D3 /* Doceo */ = {
+			isa = PBXGroup;
+			children = (
+				A495645B1D8A39B900B649D3 /* AppDelegate.swift */,
+				A4733EA11D8F0733004ABC2C /* GlobalMethods.swift */,
+				A49564711D8A3CCE00B649D3 /* DiscoverTab */,
+				A49564811D8A5AFC00B649D3 /* HubTab */,
+				A49564741D8A40E600B649D3 /* ProfessorTab */,
+				A4733EA01D8F0685004ABC2C /* Entities */,
+				A49564791D8A424300B649D3 /* LoadingViewController.swift */,
+				A49564611D8A39B900B649D3 /* Main.storyboard */,
+				A49564641D8A39B900B649D3 /* Assets.xcassets */,
+				A49564661D8A39B900B649D3 /* LaunchScreen.storyboard */,
+				A49564691D8A39B900B649D3 /* Info.plist */,
+				A4990A311D8B9681009F3D94 /* GoogleService-Info.plist */,
+				A49564751D8A411500B649D3 /* Constants.swift */,
+			);
+			path = Doceo;
+			sourceTree = "<group>";
+		};
+		A49564711D8A3CCE00B649D3 /* DiscoverTab */ = {
+			isa = PBXGroup;
+			children = (
+				A495646F1D8A3CC900B649D3 /* DiscoverViewController.swift */,
+			);
+			name = DiscoverTab;
+			sourceTree = "<group>";
+		};
+		A49564741D8A40E600B649D3 /* ProfessorTab */ = {
+			isa = PBXGroup;
+			children = (
+				A49564721D8A40E200B649D3 /* ProfessorsViewController.swift */,
+				A49564771D8A422600B649D3 /* FollowingViewController.swift */,
+				A495647B1D8A43CA00B649D3 /* ProfessorTableViewController.swift */,
+				A495647D1D8A43E200B649D3 /* ProfileProfessorViewController.swift */,
+			);
+			name = ProfessorTab;
+			sourceTree = "<group>";
+		};
+		A49564811D8A5AFC00B649D3 /* HubTab */ = {
+			isa = PBXGroup;
+			children = (
+				A49564821D8A5B2E00B649D3 /* HubViewController.swift */,
+				A49564831D8A5B2E00B649D3 /* LoginViewController.swift */,
+				A49564841D8A5B2E00B649D3 /* MyHubViewController.swift */,
+				A49564851D8A5B2E00B649D3 /* HubDateViewController.swift */,
+				A49564861D8A5B2E00B649D3 /* HubAreasViewController.swift */,
+				A49564871D8A5B2E00B649D3 /* HubProfessorsViewController.swift */,
+				A49564881D8A5B2E00B649D3 /* HubSearchViewController.swift */,
+				A4ED48551D90CB7E0073D386 /* PostViewController.swift */,
+			);
+			name = HubTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A49564571D8A39B900B649D3 /* Doceo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A495646C1D8A39B900B649D3 /* Build configuration list for PBXNativeTarget "Doceo" */;
+			buildPhases = (
+				F4053441DC7BEAD40C8D41A2 /* [CP] Check Pods Manifest.lock */,
+				A49564541D8A39B900B649D3 /* Sources */,
+				A49564551D8A39B900B649D3 /* Frameworks */,
+				A49564561D8A39B900B649D3 /* Resources */,
+				85C750DFB505560C7CA9F442 /* [CP] Embed Pods Frameworks */,
+				E34C77C4646B90B941A2A257 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doceo;
+			productName = Doceo;
+			productReference = A49564581D8A39B900B649D3 /* Doceo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A49564501D8A39B900B649D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Juan David Cruz";
+				TargetAttributes = {
+					A49564571D8A39B900B649D3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LS6M2TWH7D;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A49564531D8A39B900B649D3 /* Build configuration list for PBXProject "Doceo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A495644F1D8A39B900B649D3;
+			productRefGroup = A49564591D8A39B900B649D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A49564571D8A39B900B649D3 /* Doceo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A49564561D8A39B900B649D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49564681D8A39B900B649D3 /* LaunchScreen.storyboard in Resources */,
+				A4990A321D8B9681009F3D94 /* GoogleService-Info.plist in Resources */,
+				A49564651D8A39B900B649D3 /* Assets.xcassets in Resources */,
+				A49564631D8A39B900B649D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85C750DFB505560C7CA9F442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doceo/Pods-Doceo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34C77C4646B90B941A2A257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doceo/Pods-Doceo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4053441DC7BEAD40C8D41A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A49564541D8A39B900B649D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49564731D8A40E200B649D3 /* ProfessorsViewController.swift in Sources */,
+				A495648C1D8A5B2E00B649D3 /* HubDateViewController.swift in Sources */,
+				A49564801D8A55E100B649D3 /* Professor.swift in Sources */,
+				A49564781D8A422600B649D3 /* FollowingViewController.swift in Sources */,
+				A495647E1D8A43E200B649D3 /* ProfileProfessorViewController.swift in Sources */,
+				A495648D1D8A5B2E00B649D3 /* HubAreasViewController.swift in Sources */,
+				A495648E1D8A5B2E00B649D3 /* HubProfessorsViewController.swift in Sources */,
+				A49564911D8A611B00B649D3 /* ProfessorPost.swift in Sources */,
+				A495648B1D8A5B2E00B649D3 /* MyHubViewController.swift in Sources */,
+				A49564701D8A3CC900B649D3 /* DiscoverViewController.swift in Sources */,
+				A495645C1D8A39B900B649D3 /* AppDelegate.swift in Sources */,
+				A49564891D8A5B2E00B649D3 /* HubViewController.swift in Sources */,
+				A4ED48561D90CB7E0073D386 /* PostViewController.swift in Sources */,
+				A49564761D8A411500B649D3 /* Constants.swift in Sources */,
+				A495648F1D8A5B2E00B649D3 /* HubSearchViewController.swift in Sources */,
+				A495647A1D8A424300B649D3 /* LoadingViewController.swift in Sources */,
+				A4733EA21D8F0733004ABC2C /* GlobalMethods.swift in Sources */,
+				A495647C1D8A43CA00B649D3 /* ProfessorTableViewController.swift in Sources */,
+				A495648A1D8A5B2E00B649D3 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A49564611D8A39B900B649D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49564621D8A39B900B649D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A49564661D8A39B900B649D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A49564671D8A39B900B649D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A495646A1D8A39B900B649D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A495646B1D8A39B900B649D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A495646D1D8A39B900B649D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7977E166AD220C96DF074643 /* Pods-Doceo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS6M2TWH7D;
+				INFOPLIST_FILE = Doceo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juandavidcruz.Doceo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A495646E1D8A39B900B649D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C29651C5F3F2859A05D58A3 /* Pods-Doceo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LS6M2TWH7D;
+				INFOPLIST_FILE = Doceo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juandavidcruz.Doceo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A49564531D8A39B900B649D3 /* Build configuration list for PBXProject "Doceo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A495646A1D8A39B900B649D3 /* Debug */,
+				A495646B1D8A39B900B649D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A495646C1D8A39B900B649D3 /* Build configuration list for PBXNativeTarget "Doceo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A495646D1D8A39B900B649D3 /* Debug */,
+				A495646E1D8A39B900B649D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A49564501D8A39B900B649D3 /* Project object */;
+}
